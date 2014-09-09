@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 2  date Tue 09 Sep 2014 04:36:08 PM EDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,9 +30,9 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:sdr-cache
-EELAYER 27 0
+EELAYER 25  0
 EELAYER END
-$Descr USLetter 11000 8500
+$Descr A4 11700 8267
 encoding utf-8
 Sheet 1 5
 Title ""

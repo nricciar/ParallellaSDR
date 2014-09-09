@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 2  date Tue 09 Sep 2014 04:36:08 PM EDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,9 +30,9 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:sdr-cache
-EELAYER 27 0
+EELAYER 25  0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A4 11700 8267
 encoding utf-8
 Sheet 4 5
 Title ""
@@ -44,4 +44,243 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Notes 8750 1400 0    100  ~ 0
+Ultra Low Noise Supply
+Connection ~ 7750 2750
+Wire Wire Line
+	7900 2750 7750 2750
+Wire Wire Line
+	7500 2600 7500 2900
+Connection ~ 7750 800 
+Wire Wire Line
+	7750 900  7750 800 
+Wire Wire Line
+	7750 1300 7750 1400
+Connection ~ 7750 2100
+Wire Wire Line
+	7750 2200 7750 2100
+Wire Wire Line
+	8400 800  8550 800 
+Wire Wire Line
+	8550 800  8550 2300
+Connection ~ 8550 2250
+Wire Wire Line
+	9300 2650 9300 2750
+Wire Wire Line
+	9450 2900 9450 2650
+Wire Wire Line
+	10450 2750 10450 2900
+Wire Wire Line
+	10100 2250 10200 2250
+Wire Wire Line
+	10200 2250 10200 2350
+Wire Wire Line
+	10450 2100 10100 2100
+Wire Wire Line
+	10450 1750 10450 2350
+Connection ~ 10450 2100
+Wire Wire Line
+	10200 2750 10200 2900
+Wire Wire Line
+	8650 2250 8550 2250
+Wire Wire Line
+	8550 2700 8550 2900
+Connection ~ 8550 2750
+Wire Wire Line
+	8650 2100 8400 2100
+Connection ~ 8550 2100
+Wire Wire Line
+	7900 2100 7500 2100
+Wire Wire Line
+	7500 2100 7500 2200
+Wire Wire Line
+	7750 2600 7750 2900
+Wire Wire Line
+	7500 1300 7500 1400
+Wire Wire Line
+	7900 800  7500 800 
+Wire Wire Line
+	7500 800  7500 900 
+Wire Wire Line
+	9300 2750 8400 2750
+$Comp
+L R R?
+U 1 1 540F0EF9
+P 8150 2750
+F 0 "R?" V 8230 2750 50  0000 C CNN
+F 1 "JMP1" V 8150 2750 50  0000 C CNN
+	1    8150 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 540F0EA7
+P 7500 2900
+F 0 "#PWR?" H 7500 2900 30  0001 C CNN
+F 1 "GND" H 7500 2830 30  0001 C CNN
+	1    7500 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 540F0EA5
+P 7750 2900
+F 0 "#PWR?" H 7750 2900 30  0001 C CNN
+F 1 "GND" H 7750 2830 30  0001 C CNN
+	1    7750 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 540F0EA1
+P 7750 1400
+F 0 "#PWR?" H 7750 1400 30  0001 C CNN
+F 1 "GND" H 7750 1330 30  0001 C CNN
+	1    7750 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 540F0E9B
+P 7500 1400
+F 0 "#PWR?" H 7500 1400 30  0001 C CNN
+F 1 "GND" H 7500 1330 30  0001 C CNN
+	1    7500 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 540F0E95
+P 7500 2400
+F 0 "C?" H 7550 2500 50  0000 L CNN
+F 1 "C" H 7550 2300 50  0000 L CNN
+	1    7500 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 540F0E8C
+P 7750 2400
+F 0 "C?" H 7800 2500 50  0000 L CNN
+F 1 "C" H 7800 2300 50  0000 L CNN
+	1    7750 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 540F0E7C
+P 7500 1100
+F 0 "C?" H 7550 1200 50  0000 L CNN
+F 1 "C" H 7550 1000 50  0000 L CNN
+	1    7500 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 540F0E73
+P 7750 1100
+F 0 "C?" H 7800 1200 50  0000 L CNN
+F 1 "C" H 7800 1000 50  0000 L CNN
+	1    7750 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 540F0E4F
+P 8150 800
+F 0 "R?" V 8230 800 50  0000 C CNN
+F 1 "R" V 8150 800 50  0000 C CNN
+	1    8150 800 
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 540F0E24
+P 8150 2100
+F 0 "R?" V 8230 2100 50  0000 C CNN
+F 1 "R" V 8150 2100 50  0000 C CNN
+	1    8150 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 540F0E01
+P 8550 2900
+F 0 "#PWR?" H 8550 2900 30  0001 C CNN
+F 1 "GND" H 8550 2830 30  0001 C CNN
+	1    8550 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 540F0DCE
+P 8550 2500
+F 0 "C?" H 8600 2600 50  0000 L CNN
+F 1 "C" H 8600 2400 50  0000 L CNN
+	1    8550 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 540F0DAF
+P 9450 2900
+F 0 "#PWR?" H 9450 2900 30  0001 C CNN
+F 1 "GND" H 9450 2830 30  0001 C CNN
+	1    9450 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 540F0D98
+P 10450 2900
+F 0 "#PWR?" H 10450 2900 30  0001 C CNN
+F 1 "GND" H 10450 2830 30  0001 C CNN
+	1    10450 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 540F0D94
+P 10200 2900
+F 0 "#PWR?" H 10200 2900 30  0001 C CNN
+F 1 "GND" H 10200 2830 30  0001 C CNN
+	1    10200 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 540F0D65
+P 10200 2550
+F 0 "C?" H 10250 2650 50  0000 L CNN
+F 1 "C" H 10250 2450 50  0000 L CNN
+	1    10200 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 540F0D58
+P 10450 2550
+F 0 "C?" H 10500 2650 50  0000 L CNN
+F 1 "C" H 10500 2450 50  0000 L CNN
+	1    10450 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 540F0D48
+P 10450 1750
+F 0 "#PWR?" H 10450 1840 20  0001 C CNN
+F 1 "+5V" H 10450 1840 30  0000 C CNN
+	1    10450 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L MAX6126A21 U?
+U 1 1 540F0CF6
+P 9350 2150
+F 0 "U?" H 9750 1900 60  0000 C CNN
+F 1 "MAX6126A21" H 9400 2350 60  0000 C CNN
+	1    9350 2150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
