@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 10 Sep 2014 03:56:03 PM EDT
+EESchema Schematic File Version 2
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,13 +30,13 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:sdr-cache
-EELAYER 25  0
+EELAYER 27 0
 EELAYER END
-$Descr A4 11700 8267
+$Descr A4 11693 8268
 encoding utf-8
 Sheet 1 5
 Title ""
-Date "10 sep 2014"
+Date "11 sep 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -44,6 +44,214 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L GND #PWR?
+U 1 1 54109C6C
+P 7050 6450
+F 0 "#PWR?" H 7050 6450 30  0001 C CNN
+F 1 "GND" H 7050 6380 30  0001 C CNN
+F 2 "" H 7050 6450 60  0001 C CNN
+F 3 "" H 7050 6450 60  0001 C CNN
+	1    7050 6450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 54109BE1
+P 8350 1050
+F 0 "#PWR?" H 8350 1010 30  0001 C CNN
+F 1 "+3.3V" H 8350 1160 30  0000 C CNN
+F 2 "" H 8350 1050 60  0001 C CNN
+F 3 "" H 8350 1050 60  0001 C CNN
+	1    8350 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 54109B37
+P 1300 4550
+F 0 "#PWR?" H 1300 4550 30  0001 C CNN
+F 1 "GND" H 1300 4480 30  0001 C CNN
+F 2 "" H 1300 4550 60  0001 C CNN
+F 3 "" H 1300 4550 60  0001 C CNN
+	1    1300 4550
+	0    1    1    0   
+$EndComp
+Text GLabel 1300 4350 0    39   Input ~ 0
+RX_CLKOUT
+$Comp
+L GND #PWR?
+U 1 1 54109A34
+P 8800 2550
+F 0 "#PWR?" H 8800 2550 30  0001 C CNN
+F 1 "GND" H 8800 2480 30  0001 C CNN
+F 2 "" H 8800 2550 60  0001 C CNN
+F 3 "" H 8800 2550 60  0001 C CNN
+	1    8800 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L +2.5V #PWR?
+U 1 1 54109A13
+P 9100 3600
+F 0 "#PWR?" H 9100 3550 20  0001 C CNN
+F 1 "+2.5V" H 9100 3700 30  0000 C CNN
+F 2 "" H 9100 3600 60  0001 C CNN
+F 3 "" H 9100 3600 60  0001 C CNN
+	1    9100 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L +1.2V #PWR?
+U 1 1 541099C7
+P 9000 2050
+F 0 "#PWR?" H 9000 2190 20  0001 C CNN
+F 1 "+1.2V" H 9000 2160 30  0000 C CNN
+F 2 "" H 9000 2050 60  0001 C CNN
+F 3 "" H 9000 2050 60  0001 C CNN
+	1    9000 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 54109951
+P 1300 3450
+F 0 "#PWR?" H 1300 3450 30  0001 C CNN
+F 1 "GND" H 1300 3380 30  0001 C CNN
+F 2 "" H 1300 3450 60  0001 C CNN
+F 3 "" H 1300 3450 60  0001 C CNN
+	1    1300 3450
+	0    1    1    0   
+$EndComp
+Text GLabel 1300 3650 0    39   Input ~ 0
+CLK122
+Text GLabel 6000 3350 0    39   Output ~ 0
+TX_DB13
+Text GLabel 6000 3250 0    39   Output ~ 0
+TX_DB12
+Text GLabel 6000 3150 0    39   Output ~ 0
+TX_DB11
+Text GLabel 6000 3050 0    39   Output ~ 0
+TX_DB10
+Text GLabel 6000 2950 0    39   Output ~ 0
+TX_DB9
+Text GLabel 6000 2850 0    39   Output ~ 0
+TX_DB8
+Text GLabel 6000 2550 0    39   Output ~ 0
+TX_DB7
+Text GLabel 6000 2450 0    39   Output ~ 0
+TX_DB6
+Text GLabel 6000 2350 0    39   Output ~ 0
+TX_DB5
+Text GLabel 6000 2250 0    39   Output ~ 0
+TX_DB4
+Text GLabel 6000 2150 0    39   Output ~ 0
+TX_DB3
+Text GLabel 6000 2050 0    39   Output ~ 0
+TX_DB2
+Text GLabel 4550 5250 0    39   Output ~ 0
+TX_DB1
+Text GLabel 4550 5150 0    39   Output ~ 0
+TX_DB0
+Text GLabel 6000 3550 0    39   Output ~ 0
+LVL_WR
+Text GLabel 6000 3650 0    39   Output ~ 0
+LVL_CS
+Text GLabel 6000 3750 0    39   Output ~ 0
+LVL_DB0
+Text GLabel 6000 3850 0    39   Output ~ 0
+LVL_DB1
+Text GLabel 6000 3950 0    39   Output ~ 0
+LVL_DB2
+Text GLabel 6000 4050 0    39   Output ~ 0
+LVL_DB3
+Text GLabel 6000 4150 0    39   Output ~ 0
+LVL_DB4
+Text GLabel 6000 4250 0    39   Output ~ 0
+LVL_DB5
+Text GLabel 6000 4350 0    39   Output ~ 0
+LVL_DB6
+Text GLabel 6000 4450 0    39   Output ~ 0
+LVL_DB7
+Text GLabel 4550 2450 0    39   Output ~ 0
+RX_ATT2dB
+Text GLabel 4550 2550 0    39   Output ~ 0
+RX_ATT4dB
+Text GLabel 4550 2650 0    39   Output ~ 0
+RX_ATT8dB
+Text GLabel 4550 2750 0    39   Output ~ 0
+RX_ATT10dB
+Text GLabel 4550 2850 0    39   Output ~ 0
+RX_ATT20dB
+Text GLabel 3000 3450 0    39   Output ~ 0
+RX_ANTSWITCH
+Text GLabel 4550 4950 0    39   Input ~ 0
+RX_D0
+Text GLabel 4550 4850 0    39   Input ~ 0
+RX_D1
+Text GLabel 4550 4750 0    39   Input ~ 0
+RX_D2
+Text GLabel 4550 4650 0    39   Input ~ 0
+RX_D3
+Text GLabel 4550 4550 0    39   Input ~ 0
+RX_D4
+Text GLabel 4550 4450 0    39   Input ~ 0
+RX_D5
+Text GLabel 4550 4350 0    39   Input ~ 0
+RX_D6
+Text GLabel 4550 4250 0    39   Input ~ 0
+RX_D7
+Text GLabel 4550 4150 0    39   Input ~ 0
+RX_D8
+Text GLabel 4550 4050 0    39   Input ~ 0
+RX_D9
+Text GLabel 4550 3750 0    39   Input ~ 0
+RX_D10
+Text GLabel 4550 3650 0    39   Input ~ 0
+RX_D11
+Text GLabel 4550 3550 0    39   Input ~ 0
+RX_D12
+Text GLabel 4550 5050 0    39   Output ~ 0
+RX_RESET
+Text GLabel 4550 3450 0    39   Input ~ 0
+RX_D13
+Text GLabel 4550 3350 0    39   Input ~ 0
+RX_OVR
+$Comp
+L EP3C25Q240C8N U?
+U 1 1 54107DF7
+P 5800 3750
+F 0 "U?" H 7250 1500 60  0000 C CNN
+F 1 "EP3C25Q240C8N" H 7550 1600 60  0000 C CNN
+F 2 "" H 5800 3750 60  0001 C CNN
+F 3 "" H 5800 3750 60  0001 C CNN
+	1    5800 3750
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 800  6800 950  900 
+U 540E5261
+F0 "receiver" 50
+F1 "receiver.sch" 50
+$EndSheet
+$Sheet
+S 1900 6800 1050 900 
+U 540E52C9
+F0 "transmitter" 50
+F1 "transmitter.sch" 50
+$EndSheet
+$Sheet
+S 3150 6800 1100 900 
+U 540E52CB
+F0 "power" 50
+F1 "power.sch" 50
+$EndSheet
+$Sheet
+S 4450 6800 1150 900 
+U 540E52CD
+F0 "network" 50
+F1 "network.sch" 50
+$EndSheet
 Connection ~ 6750 6450
 Wire Wire Line
 	6750 6350 6750 6450
@@ -122,13 +330,9 @@ Connection ~ 7850 1050
 Wire Wire Line
 	7750 1050 7750 1150
 Connection ~ 8150 1050
-Connection ~ 1500 4150
 Connection ~ 1500 4250
 Wire Wire Line
 	1500 4550 1500 3850
-Connection ~ 1500 3950
-Wire Wire Line
-	1500 4050 1600 4050
 Connection ~ 1500 3150
 Wire Wire Line
 	1600 3050 1500 3050
@@ -295,11 +499,6 @@ Connection ~ 1500 3250
 Wire Wire Line
 	1500 3850 1600 3850
 Wire Wire Line
-	1500 3950 1600 3950
-Wire Wire Line
-	1500 4150 1600 4150
-Connection ~ 1500 4050
-Wire Wire Line
 	8050 1050 8050 1150
 Wire Wire Line
 	8150 1050 8150 1150
@@ -379,196 +578,20 @@ Connection ~ 6450 6450
 Wire Wire Line
 	6650 6350 6650 6450
 Connection ~ 6650 6450
-$Comp
-L GND #PWR?
-U 1 1 54109C6C
-P 7050 6450
-F 0 "#PWR?" H 7050 6450 30  0001 C CNN
-F 1 "GND" H 7050 6380 30  0001 C CNN
-	1    7050 6450
-	0    -1   -1   0   
-$EndComp
-$Comp
-L +3.3V #PWR?
-U 1 1 54109BE1
-P 8350 1050
-F 0 "#PWR?" H 8350 1010 30  0001 C CNN
-F 1 "+3.3V" H 8350 1160 30  0000 C CNN
-	1    8350 1050
-	0    1    1    0   
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 54109B37
-P 1300 4550
-F 0 "#PWR?" H 1300 4550 30  0001 C CNN
-F 1 "GND" H 1300 4480 30  0001 C CNN
-	1    1300 4550
-	0    1    1    0   
-$EndComp
-Text GLabel 1300 4350 0    39   Input ~ 0
-RX_CLKOUT
-$Comp
-L GND #PWR?
-U 1 1 54109A34
-P 8800 2550
-F 0 "#PWR?" H 8800 2550 30  0001 C CNN
-F 1 "GND" H 8800 2480 30  0001 C CNN
-	1    8800 2550
-	0    1    1    0   
-$EndComp
-$Comp
-L +2.5V #PWR?
-U 1 1 54109A13
-P 9100 3600
-F 0 "#PWR?" H 9100 3550 20  0001 C CNN
-F 1 "+2.5V" H 9100 3700 30  0000 C CNN
-	1    9100 3600
-	-1   0    0    1   
-$EndComp
-$Comp
-L +1.2V #PWR?
-U 1 1 541099C7
-P 9000 2050
-F 0 "#PWR?" H 9000 2190 20  0001 C CNN
-F 1 "+1.2V" H 9000 2160 30  0000 C CNN
-	1    9000 2050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 54109951
-P 1300 3450
-F 0 "#PWR?" H 1300 3450 30  0001 C CNN
-F 1 "GND" H 1300 3380 30  0001 C CNN
-	1    1300 3450
-	0    1    1    0   
-$EndComp
-Text GLabel 1300 3650 0    39   Input ~ 0
-CLK122
-Text GLabel 6000 3350 0    39   Output ~ 0
-TX_DB13
-Text GLabel 6000 3250 0    39   Output ~ 0
-TX_DB12
-Text GLabel 6000 3150 0    39   Output ~ 0
-TX_DB11
-Text GLabel 6000 3050 0    39   Output ~ 0
-TX_DB10
-Text GLabel 6000 2950 0    39   Output ~ 0
-TX_DB9
-Text GLabel 6000 2850 0    39   Output ~ 0
-TX_DB8
-Text GLabel 6000 2550 0    39   Output ~ 0
-TX_DB7
-Text GLabel 6000 2450 0    39   Output ~ 0
-TX_DB6
-Text GLabel 6000 2350 0    39   Output ~ 0
-TX_DB5
-Text GLabel 6000 2250 0    39   Output ~ 0
-TX_DB4
-Text GLabel 6000 2150 0    39   Output ~ 0
-TX_DB3
-Text GLabel 6000 2050 0    39   Output ~ 0
-TX_DB2
-Text GLabel 4550 5250 0    39   Output ~ 0
-TX_DB1
-Text GLabel 4550 5150 0    39   Output ~ 0
-TX_DB0
-Text GLabel 6000 3550 0    39   Output ~ 0
-LVL_WR
-Text GLabel 6000 3650 0    39   Output ~ 0
-LVL_CS
-Text GLabel 6000 3750 0    39   Output ~ 0
-LVL_DB0
-Text GLabel 6000 3850 0    39   Output ~ 0
-LVL_DB1
-Text GLabel 6000 3950 0    39   Output ~ 0
-LVL_DB2
-Text GLabel 6000 4050 0    39   Output ~ 0
-LVL_DB3
-Text GLabel 6000 4150 0    39   Output ~ 0
-LVL_DB4
-Text GLabel 6000 4250 0    39   Output ~ 0
-LVL_DB5
-Text GLabel 6000 4350 0    39   Output ~ 0
-LVL_DB6
-Text GLabel 6000 4450 0    39   Output ~ 0
-LVL_DB7
-Text GLabel 4550 2450 0    39   Output ~ 0
-RX_ATT2dB
-Text GLabel 4550 2550 0    39   Output ~ 0
-RX_ATT4dB
-Text GLabel 4550 2650 0    39   Output ~ 0
-RX_ATT8dB
-Text GLabel 4550 2750 0    39   Output ~ 0
-RX_ATT10dB
-Text GLabel 4550 2850 0    39   Output ~ 0
-RX_ATT20dB
-Text GLabel 3000 3450 0    39   Output ~ 0
-RX_ANTSWITCH
-Text GLabel 4550 4950 0    39   Input ~ 0
-RX_D0
-Text GLabel 4550 4850 0    39   Input ~ 0
-RX_D1
-Text GLabel 4550 4750 0    39   Input ~ 0
-RX_D2
-Text GLabel 4550 4650 0    39   Input ~ 0
-RX_D3
-Text GLabel 4550 4550 0    39   Input ~ 0
-RX_D4
-Text GLabel 4550 4450 0    39   Input ~ 0
-RX_D5
-Text GLabel 4550 4350 0    39   Input ~ 0
-RX_D6
-Text GLabel 4550 4250 0    39   Input ~ 0
-RX_D7
-Text GLabel 4550 4150 0    39   Input ~ 0
-RX_D8
-Text GLabel 4550 4050 0    39   Input ~ 0
-RX_D9
-Text GLabel 4550 3750 0    39   Input ~ 0
-RX_D10
-Text GLabel 4550 3650 0    39   Input ~ 0
-RX_D11
-Text GLabel 4550 3550 0    39   Input ~ 0
-RX_D12
-Text GLabel 4550 5050 0    39   Output ~ 0
-RX_RESET
-Text GLabel 4550 3450 0    39   Input ~ 0
-RX_D13
-Text GLabel 4550 3350 0    39   Input ~ 0
-RX_OVR
-$Comp
-L EP3C25Q240C8N U?
-U 1 1 54107DF7
-P 5800 3750
-F 0 "U?" H 7250 1500 60  0000 C CNN
-F 1 "EP3C25Q240C8N" H 7550 1600 60  0000 C CNN
-	1    5800 3750
-	1    0    0    -1  
-$EndComp
-$Sheet
-S 800  6800 950  900 
-U 540E5261
-F0 "receiver" 50
-F1 "receiver.sch" 50
-$EndSheet
-$Sheet
-S 1900 6800 1050 900 
-U 540E52C9
-F0 "transmitter" 50
-F1 "transmitter.sch" 50
-$EndSheet
-$Sheet
-S 3150 6800 1100 900 
-U 540E52CB
-F0 "power" 50
-F1 "power.sch" 50
-$EndSheet
-$Sheet
-S 4450 6800 1150 900 
-U 540E52CD
-F0 "network" 50
-F1 "network.sch" 50
-$EndSheet
+Wire Wire Line
+	1600 4050 1300 4050
+Text GLabel 1300 4050 0    39   Input ~ 0
+PHY_RX_CLK
+Wire Wire Line
+	7850 5150 7450 5150
+Text GLabel 7450 5150 0    39   Output ~ 0
+PHY_TX_CLK
+Wire Wire Line
+	1600 3950 1300 3950
+Text GLabel 1300 3950 0    39   Input ~ 0
+PHY_CLK125
+Wire Wire Line
+	1600 4150 1300 4150
+Text GLabel 1300 4150 0    39   Input ~ 0
+PHY_INT_N
 $EndSCHEMATC
